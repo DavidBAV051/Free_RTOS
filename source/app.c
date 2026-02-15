@@ -23,9 +23,9 @@ int main(void) {
 	BOARD_InitHardware();
 
 	PRINTF("Creating Task 1\n\r");
-	os_create_task(vTask1, "Task 1", configMINIMAL_STACK_SIZE, NULL, 1, NULL);
+	os_create_task(vTask1, "Task 1", 1000, NULL, 1, NULL);
 	PRINTF("Creating Task 2\n\r");
-	os_create_task(vTask2, "Task 2", configMINIMAL_STACK_SIZE, NULL, 1, NULL);
+	os_create_task(vTask2, "Task 2", 1000, NULL, 1, NULL);
 
 	os_task_scheduler();
     while(1);
