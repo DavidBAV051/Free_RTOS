@@ -6,7 +6,7 @@
  * Generated linker script file for MCXN947
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on Feb 10, 2026, 6:51:05 PM
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on Feb 14, 2026, 9:43:43 PM
  */
 
 INCLUDE "Free_RTOS_Debug_library.ld"
@@ -71,6 +71,7 @@ SECTIONS
         *(.after_vectors*)
 
        *(.text*)
+       KEEP(*freertos*/tasks.o(.rodata*)) /* FreeRTOS Debug Config */
        *(.rodata .rodata.* .constdata .constdata.*)
        . = ALIGN(4);
     } > PROGRAM_FLASH0

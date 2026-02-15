@@ -16,10 +16,15 @@ OBJS :=
 SUBDIRS := \
 board \
 component/lists \
+component/osa \
 component/serial_manager \
 component/uart \
 device \
 drivers \
+freertos/freertos-kernel \
+freertos/freertos-kernel/portable/Common \
+freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure \
+freertos/freertos-kernel/portable/MemMang \
 source \
 startup \
 utilities/debug_console \

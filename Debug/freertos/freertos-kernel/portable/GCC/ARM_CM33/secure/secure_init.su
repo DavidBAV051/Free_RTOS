@@ -1,0 +1,2 @@
+../freertos/freertos-kernel/portable/GCC/ARM_CM33/secure/secure_init.c:63:36:SecureInit_DePrioritizeNSExceptions	16	static
+../freertos/freertos-kernel/portable/GCC/ARM_CM33/secure/secure_init.c:81:36:SecureInit_EnableNSFPUAccess	16	static

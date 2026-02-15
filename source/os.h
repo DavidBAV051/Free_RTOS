@@ -12,7 +12,7 @@
 #include "task.h"
 
 /* --- Wrappers para las funciones de FreeRTOS -- */
-BaseType os_create_task(TaskFunction_t pvTaskCode, const char * const pcName,
+BaseType_t os_create_task(TaskFunction_t pvTaskCode, const char * const pcName,
 			const uint16_t usStackDepth, void * const pvParameters,
 			UBaseType_t uxPriority,TaskHandle_t * const pxCreatedTask);
 

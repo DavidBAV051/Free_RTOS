@@ -1,0 +1,11 @@
+../freertos/freertos-kernel/portable/GCC/ARM_CM33/non_secure/portasm.c:123:10:vRestoreContextOfFirstTask	0	static
+../freertos/freertos-kernel/portable/GCC/ARM_CM33/non_secure/portasm.c:151:12:xIsPrivileged	0	static
+../freertos/freertos-kernel/portable/GCC/ARM_CM33/non_secure/portasm.c:168:6:vRaisePrivilege	0	static
+../freertos/freertos-kernel/portable/GCC/ARM_CM33/non_secure/portasm.c:183:6:vResetPrivilege	0	static
+../freertos/freertos-kernel/portable/GCC/ARM_CM33/non_secure/portasm.c:198:6:vStartFirstTask	0	static
+../freertos/freertos-kernel/portable/GCC/ARM_CM33/non_secure/portasm.c:219:10:ulSetInterruptMask	0	static
+../freertos/freertos-kernel/portable/GCC/ARM_CM33/non_secure/portasm.c:236:6:vClearInterruptMask	0	static
+../freertos/freertos-kernel/portable/GCC/ARM_CM33/non_secure/portasm.c:397:10:PendSV_Handler	0	static
+../freertos/freertos-kernel/portable/GCC/ARM_CM33/non_secure/portasm.c:531:10:SVC_Handler	0	static
+../freertos/freertos-kernel/portable/GCC/ARM_CM33/non_secure/portasm.c:549:6:vPortAllocateSecureContext	0	static
+../freertos/freertos-kernel/portable/GCC/ARM_CM33/non_secure/portasm.c:562:6:vPortFreeSecureContext	0	static

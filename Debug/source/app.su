@@ -1,0 +1,4 @@
+../source/app.c:22:5:main	16	static
+../source/app.c:35:6:vTask1	16	static
+../source/app.c:43:6:vTask2	16	static
+../source/app.c:51:6:BOARD_InitHardware	8	static

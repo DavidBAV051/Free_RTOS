@@ -1,0 +1,3 @@
+../source/os.c:10:12:os_create_task	32	static
+../source/os.c:18:6:os_set_priority	16	static
+../source/os.c:22:6:os_task_scheduler	8	static

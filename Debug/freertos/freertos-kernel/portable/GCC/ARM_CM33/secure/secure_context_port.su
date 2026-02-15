@@ -1,0 +1,2 @@
+../freertos/freertos-kernel/portable/GCC/ARM_CM33/secure/secure_context_port.c:38:6:SecureContext_LoadContextAsm	0	static
+../freertos/freertos-kernel/portable/GCC/ARM_CM33/secure/secure_context_port.c:65:6:SecureContext_SaveContextAsm	0	static

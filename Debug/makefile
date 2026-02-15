@@ -13,10 +13,15 @@ RM := rm -rf
 -include utilities/subdir.mk
 -include startup/subdir.mk
 -include source/subdir.mk
+-include freertos/freertos-kernel/portable/MemMang/subdir.mk
+-include freertos/freertos-kernel/portable/GCC/ARM_CM33_NTZ/non_secure/subdir.mk
+-include freertos/freertos-kernel/portable/Common/subdir.mk
+-include freertos/freertos-kernel/subdir.mk
 -include drivers/subdir.mk
 -include device/subdir.mk
 -include component/uart/subdir.mk
 -include component/serial_manager/subdir.mk
+-include component/osa/subdir.mk
 -include component/lists/subdir.mk
 -include board/subdir.mk
 ifneq ($(MAKECMDGOALS),clean)

@@ -99,7 +99,21 @@ utilities/debug_console/fsl_debug_console.o \
  C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\component\serial_manager/fsl_component_serial_manager.h \
  C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\component\serial_manager/fsl_component_serial_port_uart.h \
  C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\component\uart/fsl_adapter_uart.h \
- ../utilities/debug_console/fsl_debug_console.h
+ C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\include/FreeRTOS.h \
+ C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\template/FreeRTOSConfig.h \
+ C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\template\ARM_CM33_3_priority_bits/FreeRTOSConfig_Gen.h \
+ C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\include/projdefs.h \
+ C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\include/portable.h \
+ C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\include/deprecated_definitions.h \
+ C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\portable\GCC\ARM_CM33\non_secure/portmacro.h \
+ C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\portable\GCC\ARM_CM33\non_secure/portmacrocommon.h \
+ C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\include/mpu_wrappers.h \
+ ../utilities/debug_console/fsl_debug_console.h \
+ C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\include/semphr.h \
+ C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\include/queue.h \
+ C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\include/task.h \
+ C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\include/list.h \
+ C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\include/task.h
 C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\utilities\debug_console\config/fsl_debug_console_conf.h:
 C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\drivers/fsl_common.h:
 C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\device/fsl_device_registers.h:
@@ -198,4 +212,18 @@ C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\utilities\str/f
 C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\component\serial_manager/fsl_component_serial_manager.h:
 C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\component\serial_manager/fsl_component_serial_port_uart.h:
 C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\component\uart/fsl_adapter_uart.h:
+C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\include/FreeRTOS.h:
+C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\template/FreeRTOSConfig.h:
+C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\template\ARM_CM33_3_priority_bits/FreeRTOSConfig_Gen.h:
+C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\include/projdefs.h:
+C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\include/portable.h:
+C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\include/deprecated_definitions.h:
+C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\portable\GCC\ARM_CM33\non_secure/portmacro.h:
+C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\portable\GCC\ARM_CM33\non_secure/portmacrocommon.h:
+C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\include/mpu_wrappers.h:
 ../utilities/debug_console/fsl_debug_console.h:
+C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\include/semphr.h:
+C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\include/queue.h:
+C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\include/task.h:
+C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\include/list.h:
+C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\freertos\freertos-kernel\include/task.h:

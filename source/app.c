@@ -16,15 +16,37 @@
 
 /* --- Prototipos de Funciones --- */
 void BOARD_InitHardware(void);
+void vTask1(void *pvParameters);
+void vTask2(void *pvParameters);
 
 int main(void) {
 	BOARD_InitHardware();
+
+	PRINTF("Creating Task 1\n\r");
+	os_create_task(vTask1, "Task 1", configMINIMAL_STACK_SIZE, NULL, 1, NULL);
+	PRINTF("Creating Task 2\n\r");
+	os_create_task(vTask2, "Task 2", configMINIMAL_STACK_SIZE, NULL, 1, NULL);
 
 	os_task_scheduler();
     while(1);
     return 0 ;
 }
 
+void vTask1(void *pvParameters){
+
+	for(;;){
+		PRINTF("Task 1 is running\n\r");
+		vTaskDelay(pdMS_TO_TICKS(500));
+	}
+}
+
+void vTask2(void *pvParameters){
+
+	for(;;){
+		PRINTF("Task 2 is running\n\r");
+		vTaskDelay(pdMS_TO_TICKS(500));
+	}
+}
 
 void BOARD_InitHardware(void){
     /* Init board hardware. */
