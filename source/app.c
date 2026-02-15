@@ -1,14 +1,10 @@
 /*
- * Copyright 2016-2026 NXP
- * All rights reserved.
+ * app.c
  *
- * SPDX-License-Identifier: BSD-3-Clause
+ *  Created on: Feb 14, 2026
+ *      Author: david
  */
 
-/**
- * @file    Free_RTOS.c
- * @brief   Application entry point.
- */
 #include <stdio.h>
 #include "board.h"
 #include "peripherals.h"
@@ -16,22 +12,16 @@
 #include "clock_config.h"
 #include "fsl_debug_console.h"
 
+#include "os.h"
+
 /* --- Prototipos de Funciones --- */
 void BOARD_InitHardware(void);
 
 int main(void) {
+	BOARD_InitHardware();
 
-    /* Init board hardware. */
-    BOARD_InitBootPins();
-    BOARD_InitBootClocks();
-    BOARD_InitBootPeripherals();
-#ifndef BOARD_INIT_DEBUG_CONSOLE_PERIPHERAL
-    /* Init FSL debug console. */
-    BOARD_InitDebugConsole();
-#endif
-
+	os_task_scheduler();
     while(1);
-
     return 0 ;
 }
 
