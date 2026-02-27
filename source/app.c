@@ -69,7 +69,7 @@ void vUartSingleTask(void *pvParameters) {
         VUART_SetTxBit(1);
         vTaskDelay(1);
 
-        /* Pausa entre envíos (ej. 50 ticks) */
+        /* Pausa entre envíos */
         vTaskDelay(50);
     }
 }

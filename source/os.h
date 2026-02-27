@@ -11,8 +11,8 @@
 #include "FreeRTOS.h"
 #include "task.h"
 
-/* 9600 Hz significa que 1 Tick = ~104 microsegundos (1 bit a 9600 baudios) */
-#define configTICK_RATE_HZ ((TickType_t)9600)
+/* 9600 Hz significa que 1 Tick = ~104 microsegundos (1 bit a 9600 baudios)
+#define configTICK_RATE_HZ ((TickType_t)9600) */
 
 /* --- Wrappers para las funciones de FreeRTOS -- */
 BaseType_t os_create_task(TaskFunction_t pvTaskCode, const char * const pcName,
