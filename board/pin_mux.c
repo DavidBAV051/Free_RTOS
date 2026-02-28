@@ -386,7 +386,7 @@ void BOARD_InitDEBUG_UARTPins(void)
                                              /* Low drive strength is configured */
                                              .driveStrength = kPORT_LowDriveStrength,
                                              /* Pin is configured as FC4_P1 */
-                                             .mux = kPORT_MuxAlt2,
+                                             .mux = kPORT_MuxAsGpio,
                                              /* Digital input enabled */
                                              .inputBuffer = kPORT_InputBufferEnable,
                                              /* Digital input is not inverted */

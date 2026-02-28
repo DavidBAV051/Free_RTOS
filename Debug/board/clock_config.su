@@ -1,4 +1,4 @@
-C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\drivers/fsl_clock.h:1492:20:CLOCK_EnableClock	24	static
+C:\Users\eduar\Documents\MCUXpressoIDE_24.12.148\workspace\operativos\UART_RTOS\drivers/fsl_clock.h:1492:20:CLOCK_EnableClock	24	static
 ../board/clock_config.c:53:6:BOARD_InitBootClocks	8	static
 ../board/clock_config.c:90:6:BOARD_BootClockFRO12M	8	static
 ../board/clock_config.c:137:6:BOARD_BootClockFROHF48M	8	static

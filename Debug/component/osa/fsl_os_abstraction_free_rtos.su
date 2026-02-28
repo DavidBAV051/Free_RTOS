@@ -1,5 +1,5 @@
-C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\drivers/fsl_common_arm.h:908:24:DisableGlobalIRQ	16	static
-C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\drivers/fsl_common_arm.h:934:20:EnableGlobalIRQ	24	static
+C:\Users\eduar\Documents\MCUXpressoIDE_24.12.148\workspace\operativos\UART_RTOS\drivers/fsl_common_arm.h:908:24:DisableGlobalIRQ	16	static
+C:\Users\eduar\Documents\MCUXpressoIDE_24.12.148\workspace\operativos\UART_RTOS\drivers/fsl_common_arm.h:934:20:EnableGlobalIRQ	24	static
 ../component/osa/fsl_os_abstraction_free_rtos.c:99:18:main_task	16	static
 ../component/osa/fsl_os_abstraction_free_rtos.c:142:7:OSA_MemoryAllocate	24	static
 ../component/osa/fsl_os_abstraction_free_rtos.c:165:6:OSA_MemoryFree	16	static

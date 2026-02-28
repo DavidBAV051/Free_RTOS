@@ -1,4 +1,4 @@
-C:\Users\david\OneDrive\Documentos\Sistemas_Operativos\Free_RTOS\drivers/fsl_gpio.h:345:20:GPIO_PinWrite	24	static
+C:\Users\eduar\Documents\MCUXpressoIDE_24.12.148\workspace\operativos\UART_RTOS\drivers/fsl_gpio.h:345:20:GPIO_PinWrite	24	static
 ../source/app.c:31:5:main	24	static
 ../source/app.c:49:20:VUART_SetTxBit	16	static
 ../source/app.c:53:6:vUartSingleTask	24	static

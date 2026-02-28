@@ -38,7 +38,7 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := Free_RTOS
+BUILD_ARTIFACT_NAME := UART_RTOS
 BUILD_ARTIFACT_EXTENSION := axf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
@@ -50,24 +50,24 @@ all:
 	+@$(MAKE) --no-print-directory main-build && $(MAKE) --no-print-directory post-build
 
 # Main-build Target
-main-build: Free_RTOS.axf
+main-build: UART_RTOS.axf
 
 # Tool invocations
-Free_RTOS.axf: $(OBJS) $(USER_OBJS) makefile $(OPTIONAL_TOOL_DEPS)
+UART_RTOS.axf: $(OBJS) $(USER_OBJS) makefile $(OPTIONAL_TOOL_DEPS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -Xlinker -Map="Free_RTOS.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -T Free_RTOS_Debug.ld -o "Free_RTOS.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -Xlinker -Map="UART_RTOS.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -T UART_RTOS_Debug.ld -o "UART_RTOS.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) Free_RTOS.axf
+	-$(RM) UART_RTOS.axf
 	-@echo ' '
 
 post-build:
 	-@echo 'Performing post-build steps'
-	-arm-none-eabi-size "Free_RTOS.axf"; # arm-none-eabi-objcopy -v -O binary "Free_RTOS.axf" "Free_RTOS.bin" ; # checksum -p MCXN947 -d "Free_RTOS.bin";
+	-arm-none-eabi-size "UART_RTOS.axf"; # arm-none-eabi-objcopy -v -O binary "UART_RTOS.axf" "UART_RTOS.bin" ; # checksum -p MCXN947 -d "UART_RTOS.bin";
 	-@echo ' '
 
 .PHONY: all clean dependents main-build post-build

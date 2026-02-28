@@ -17,7 +17,7 @@
 
 /* ---- Definiciones -- */
 #define VUART_TX_PORT GPIO1
-#define VUART_TX_PIN  14U
+#define VUART_TX_PIN  9U
 
 /* --- Prototipos de Funciones --- */
 void BOARD_InitHardware(void);
