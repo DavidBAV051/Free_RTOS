@@ -1,3 +1,7 @@
-../source/os.c:10:12:os_create_task	32	static
-../source/os.c:18:6:os_set_priority	16	static
-../source/os.c:22:6:os_task_scheduler	8	static
+../source/os.c:13:12:os_create_task	32	static
+../source/os.c:21:6:os_set_priority	16	static
+../source/os.c:25:6:os_task_scheduler	8	static
+../source/os.c:29:6:log_init	24	static
+../source/os.c:45:6:log_task	48	static
+../source/os.c:60:6:log_add	24	static
+../source/os.c:73:6:queue_pop_all	40	static

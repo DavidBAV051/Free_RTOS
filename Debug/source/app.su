@@ -1,5 +1,8 @@
 C:\Users\eduar\Documents\MCUXpressoIDE_24.12.148\workspace\operativos\UART_RTOS\drivers/fsl_gpio.h:345:20:GPIO_PinWrite	24	static
-../source/app.c:31:5:main	24	static
-../source/app.c:49:20:VUART_SetTxBit	16	static
-../source/app.c:53:6:vUartSingleTask	24	static
-../source/app.c:77:6:BOARD_InitHardware	8	static
+../source/app.c:31:6:test_queue_size_task	8	static
+../source/app.c:44:6:vTestTask	16	static
+../source/app.c:70:6:test_queue_pop	8	static
+../source/app.c:74:5:main	16	static
+../source/app.c:99:20:VUART_SetTxBit	16	static
+../source/app.c:103:6:vUartSingleTask	24	static
+../source/app.c:127:6:BOARD_InitHardware	8	static

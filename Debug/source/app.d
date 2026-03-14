@@ -113,7 +113,9 @@ source/app.o source/app.d: ../source/app.c \
  C:\Users\eduar\Documents\MCUXpressoIDE_24.12.148\workspace\operativos\UART_RTOS\freertos\freertos-kernel\include/mpu_wrappers.h \
  ../source/os.h \
  C:\Users\eduar\Documents\MCUXpressoIDE_24.12.148\workspace\operativos\UART_RTOS\freertos\freertos-kernel\include/task.h \
- C:\Users\eduar\Documents\MCUXpressoIDE_24.12.148\workspace\operativos\UART_RTOS\freertos\freertos-kernel\include/list.h
+ C:\Users\eduar\Documents\MCUXpressoIDE_24.12.148\workspace\operativos\UART_RTOS\freertos\freertos-kernel\include/list.h \
+ C:\Users\eduar\Documents\MCUXpressoIDE_24.12.148\workspace\operativos\UART_RTOS\freertos\freertos-kernel\include/queue.h \
+ C:\Users\eduar\Documents\MCUXpressoIDE_24.12.148\workspace\operativos\UART_RTOS\freertos\freertos-kernel\include/task.h
 C:\Users\eduar\Documents\MCUXpressoIDE_24.12.148\workspace\operativos\UART_RTOS\board/board.h:
 C:\Users\eduar\Documents\MCUXpressoIDE_24.12.148\workspace\operativos\UART_RTOS\board/clock_config.h:
 C:\Users\eduar\Documents\MCUXpressoIDE_24.12.148\workspace\operativos\UART_RTOS\drivers/fsl_common.h:
@@ -229,3 +231,5 @@ C:\Users\eduar\Documents\MCUXpressoIDE_24.12.148\workspace\operativos\UART_RTOS\
 ../source/os.h:
 C:\Users\eduar\Documents\MCUXpressoIDE_24.12.148\workspace\operativos\UART_RTOS\freertos\freertos-kernel\include/task.h:
 C:\Users\eduar\Documents\MCUXpressoIDE_24.12.148\workspace\operativos\UART_RTOS\freertos\freertos-kernel\include/list.h:
+C:\Users\eduar\Documents\MCUXpressoIDE_24.12.148\workspace\operativos\UART_RTOS\freertos\freertos-kernel\include/queue.h:
+C:\Users\eduar\Documents\MCUXpressoIDE_24.12.148\workspace\operativos\UART_RTOS\freertos\freertos-kernel\include/task.h:

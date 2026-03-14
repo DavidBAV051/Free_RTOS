@@ -28,19 +28,69 @@ void vTask2(void *pvParameters);
 static inline void VUART_SetTxBit(uint8_t value);
 void vUartSingleTask(void *pvParameters);
 
+void test_queue_size_task() {
+    log_add("Msg 1");
+    log_add("Msg 2");
+    log_add("Msg 3");
+    log_add("Msg 4");
+
+
+//    vTaskDelay(100);
+
+    log_add("Msg 5");
+
+}
+
+void vTestTask(void *pvParameters) {
+
+    log_add("M1");
+    log_add("M2");
+    log_add("M3");
+    log_add("M4");
+
+
+    vTaskDelay(pdMS_TO_TICKS(1000));
+
+
+    PRINTF("\n2. Ejecutando Pop All manual:\n");
+    queue_pop_all();
+
+
+    PRINTF("\n3. Intentando llenar de nuevo:\n");
+    log_add("M5");
+    log_add("M6");
+
+    PRINTF("\n--- FIN DE PRUEBAS ---\n");
+
+
+
+    vTaskSuspend(NULL);
+}
+
+void test_queue_pop(){
+	queue_pop_all();
+}
+
 int main(void) {
 	BOARD_InitHardware();
 
-    gpio_pin_config_t uart_tx_config = {
-        kGPIO_DigitalOutput,
-        0,
-    };
-	GPIO_PinInit(VUART_TX_PORT, VUART_TX_PIN, &uart_tx_config);
+//    gpio_pin_config_t uart_tx_config = {
+//        kGPIO_DigitalOutput,
+//        0,
+//    };
+//	GPIO_PinInit(VUART_TX_PORT, VUART_TX_PIN, &uart_tx_config);
 
 	/*os_create_task(vTask1, "Task 1", 1000, NULL, 1, NULL); // Creamos Task1
 	os_create_task(vTask2, "Task 2", 1000, NULL, 2, NULL); // Creamos Task2*/
 
-	os_create_task(vUartSingleTask, "UART_TX", 1000, NULL, 2, NULL);
+//	os_create_task(vUartSingleTask, "UART_TX", 1000, NULL, 2, NULL);
+
+
+	log_init(2, MAX_LOG_LENGTH);
+
+	os_create_task(vTestTask, "TestTask", configMINIMAL_STACK_SIZE + 200, NULL, 3, NULL);
+//	test_queue_pop();a
+//	test_queue_size_task();
 	os_task_scheduler();
     while(1);
     return 0 ;
